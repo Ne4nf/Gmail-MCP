@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__gmail__search_emails",
+      "mcp__gmail__get_email",
+      "mcp__gmail__reply_email",
+      "mcp__gmail__reply_email_with_attachments",
+      "mcp__todo__add_todo",
+      "mcp__todo__list_todos",
+      "mcp__todo__complete_todo",
+      "mcp__todo__get_stats"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "mcpServers":  {
+                       "todo":  {
+                                    "args":  [
+                                                 "C:\\Users\\THUC\\Downloads\\Mail MCP Agent\\todo-mcp-server.js"
+                                             ],
+                                    "command":  "node"
+                                },
+                       "gmail":  {
+                                     "args":  [
+                                                  "C:\\Users\\THUC\\Downloads\\Mail MCP Agent\\gmail-mcp-server.js"
+                                              ],
+                                     "command":  "node"
+                                 }
+                   }
+}

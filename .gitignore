@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# OAuth tokens and data (SENSITIVE - DO NOT COMMIT!)
+token.json
+*.json.backup
+todos.json
+client_secret_*.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.cache/
+
+# Build outputs
+dist/
+build/
+*.zip
+
+# Submission folders
+*Submission*/
+screenshots/*.png
+screenshots/*.jpg
+
+# Environment files
+.env
+.env.local

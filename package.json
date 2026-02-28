@@ -1,0 +1,24 @@
+{
+  "name": "mail-mcp-agent",
+  "version": "1.0.0",
+  "description": "MCP servers for Gmail and Todo management - TechNext Asia AI Intern Test",
+  "main": "index.js",
+  "bin": {
+    "gmail-mcp-server": "./gmail-mcp-server.js",
+    "todo-mcp-server": "./todo-mcp-server.js"
+  },
+  "scripts": {
+    "gmail": "node gmail-mcp-server.js",
+    "todo": "node todo-mcp-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "gmail", "todo", "model-context-protocol"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "googleapis": "^171.4.0"
+  }
+}
