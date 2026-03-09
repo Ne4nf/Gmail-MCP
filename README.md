@@ -11,7 +11,7 @@ Two Model Context Protocol (MCP) servers built:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 24+
@@ -46,7 +46,7 @@ Follow the OAuth flow to authorize Gmail access. A `token.json` file will be cre
 
 ---
 
-## 📧 Gmail MCP Server
+## Gmail MCP Server
 
 ### Features
 
@@ -76,7 +76,7 @@ Reply to email abc123xyz with attachments: screenshot1.png, screenshot2.png
 
 ---
 
-## ✅ Todo MCP Server
+## Todo MCP Server
 
 ### Features
 
@@ -122,7 +122,7 @@ Todos are stored in `todos.json` with atomic writes to prevent data corruption.
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Architecture
 
@@ -149,7 +149,7 @@ Both servers use:
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - **[START-HERE.md](START-HERE.md)** - Quick 5-step guide
 - **[BAI-TEST-HUONG-DAN.md](BAI-TEST-HUONG-DAN.md)** - Detailed Vietnamese guide
@@ -160,16 +160,16 @@ Both servers use:
 
 ---
 
-## 🎯 Test Assignment Completion
+## Test Assignment Completion
 
-### Question 1: Gmail MCP ✅
+### Question 1: Gmail MCP 
 - [x] Setup Claude Code + Gmail MCP
 - [x] Search for application email
 - [x] Extract: send date/time and first 10 words
 - [x] Reply via MCP (not Gmail UI)
 - [x] Provide terminal screenshots
 
-### Question 2: Custom MCP Server ✅
+### Question 2: Custom MCP Server 
 - [x] Create custom MCP server (Todo Manager)
 - [x] Implement 6 tools + 1 resource
 - [x] Connect to Claude Code
@@ -178,7 +178,7 @@ Both servers use:
 
 ---
 
-## 💡 Why Todo Manager?
+## Why Todo Manager?
 
 ### 1. Practical Use Case
 Todo management is a daily need for developers. Integrating it with AI assistant eliminates context switching.
@@ -205,7 +205,7 @@ Easy to add:
 
 ---
 
-## 🔒 Security Notes
+## Security Notes
 
 **Important:**
 - `token.json` contains OAuth credentials - **never commit to Git**
@@ -215,7 +215,7 @@ Easy to add:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Gmail authorization fails
 1. Check `client_secret_*.json` exists
@@ -234,30 +234,5 @@ Easy to add:
 - Check `todos.json` is created
 - Review console for error messages
 
----
 
-## 📝 License
 
-MIT License - feel free to use for learning and projects.
-
----
-
-## 🙏 Acknowledgments
-
-Built for TechNext Asia AI Intern position test.
-
-- **Platform:** Claude Code (Anthropic)
-- **MCP SDK:** Model Context Protocol
-- **APIs:** Gmail API v1
-
----
-
-## 📧 Contact
-
-**Author:** Tự Thức  
-**GitHub:** [Ne4nf](https://github.com/Ne4nf)  
-**Repository:** [Gmail-MCP](https://github.com/Ne4nf/Gmail-MCP)
-
----
-
-*Last updated: March 1, 2026*
