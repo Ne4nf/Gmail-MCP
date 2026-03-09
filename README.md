@@ -1,4 +1,4 @@
-# Gmail MCP - TechNext Asia AI Intern Test
+# Gmail MCP
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ne4nf%2FGmail--MCP-blue?logo=github)](https://github.com/Ne4nf/Gmail-MCP)
 [![Node.js](https://img.shields.io/badge/Node.js-24%2B-green?logo=node.js)](https://nodejs.org/)
