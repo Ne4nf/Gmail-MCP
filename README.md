@@ -4,7 +4,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-24%2B-green?logo=node.js)](https://nodejs.org/)
 [![MCP](https://img.shields.io/badge/MCP-SDK%201.27-purple)](https://modelcontextprotocol.io)
 
-Two Model Context Protocol (MCP) servers built for TechNext Asia AI Intern position test:
+Two Model Context Protocol (MCP) servers built:
 
 1. **Gmail MCP Server** - Gmail integration (search, read, send, reply with attachments)
 2. **Todo MCP Server** - Todo list management (full CRUD + analytics)
